@@ -9,7 +9,7 @@ else {
 
 android {
     if (buildAsApplication) {
-        namespace "com.mattkc.vanilla"
+        namespace "com.aidenonlinuxoff.ccu"
     }
     compileSdkVersion 34
     defaultConfig {
@@ -62,7 +62,7 @@ android {
             variant.outputs.each { output ->
                 def outputFile = output.outputFile
                 if (outputFile != null && outputFile.name.endsWith(".aar")) {
-                    def fileName = "com.mattkc.vanilla.aar";
+                    def fileName = "com.aidenonlinuxoff.ccu.aar";
                     output.outputFile = new File(outputFile.parent, fileName);
                 }
             }
