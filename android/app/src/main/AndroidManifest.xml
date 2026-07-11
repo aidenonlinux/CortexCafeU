@@ -62,12 +62,12 @@
 
          An example Java class can be found in README-android.md
     -->
-    <application android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
+    <application android:icon="@mipmap/ic_cortex_cafe_u"
+        android:roundIcon="@mipmap/ic_cortex_cafe_u_round"
         android:allowBackup="true"
-        android:theme="@style/AppTheme"
-        android:hardwareAccelerated="true" >
+        android:theme="@style/CortexCafeUTheme"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name" >
 
         <!-- Example of setting SDL hints from AndroidManifest.xml:
         <meta-data android:name="SDL_ENV.SDL_ACCELEROMETER_AS_JOYSTICK" android:value="0"/>
